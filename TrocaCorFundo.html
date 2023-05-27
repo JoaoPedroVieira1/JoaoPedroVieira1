@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca de Fundo</title>
+    <link rel="stylesheet" href="trocafundo.css">
+</head>
+<body>
+    <h1>- Escolha a cor para o fundo da página -</h1>
+    <div id="botoes"> <!-- div que contém os botões de cores -->
+        <button id="b1" class="botao" name="vermelho">VERMELHO</button>
+        <button id="b2" class="botao" name="amarelo">AMARELO</button>
+        <button id="b3" class="botao" name="verde">VERDE</button>
+        <button id="b4" class="botao" name="azul">AZUL</button>
+    </div>
+    <script>
+        // variáveis que recebem os botões por ID
+        var vermelho = document.getElementById('b1');
+        var amarelo = document.getElementById('b2');
+        var verde = document.getElementById('b3');
+        var azul = document.getElementById('b4');
+        
+        vermelho.addEventListener("click", function(){
+            document.body.style.backgroundColor = "red";
+        })
+
+        amarelo.addEventListener("click", function(){
+            document.body.style.backgroundColor = "yellow";
+        })
+
+        verde.addEventListener("click", function(){
+            document.body.style.backgroundColor = "green";
+        })
+
+        azul.addEventListener("click", function(){
+            document.body.style.backgroundColor = "blue";
+        })
+    </script>
+</body>
+</html>

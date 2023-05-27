@@ -1,0 +1,45 @@
+body {
+    background-color: blue;
+    color: aliceblue;
+    font: normal 18pt Arial;
+}
+
+h1 {
+    margin-left: 12%;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.botao {
+    margin-right: 20px;
+    padding: 10px;
+    font: bold 16px Arial;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black;
+    -webkit-text-stroke: 1px #000;
+}
+
+button[name="vermelho"] {
+    color: red;
+}
+
+button[name="amarelo"] {
+    color: yellow;
+}
+
+button[name="verde"] {
+    color: green;
+}
+
+button[name="azul"] {
+    color: blue;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
