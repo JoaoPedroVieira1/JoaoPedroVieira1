@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="facebookcss.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <div class="container">
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+    </div>
+
+    <div class="content"></div>
+
+    <div class="facebook">
+        <img src="facebook.svg" alt="facebooklogo" width="300px" height="100px">
+        <h1>Logins recentes</h1>
+        <p>Clique na sua foto ou adicione uma conta.</p>
+        <input id="addconta" name="addconta" type="button" value="Adicionar conta">
+    </div>
+
+    <!--FORMULÁRIO DE LOGIN-->    
+    <div id="login">
+            <form method="post" action="">
+                <p>
+                    <label for="email_login"></label>
+                    <input id="email_login" name="email_login" required="required" type="email" placeholder="E-mail ou telefone">
+                </p>
+
+                <p>
+                    <label for="senha_login"></label>
+                    <input id="senha_login" name="senha_login" required="required" type="password" placeholder="Senha">
+                </p>
+
+                <p>
+                    <input type="submit" id="entrar" value="Entrar">
+                </p>
+
+                <p class="link">
+                    <a href="#recuperação_senha">Esqueceu a senha?</a>
+                </p>
+
+                <hr>
+
+                <p class="novaconta">
+                    <a href="#"><input id="criar_conta" type="button" value="Criar nova conta"></a>
+                </p>
+            </form>
+        </div>
+
+</body>
+</html>
