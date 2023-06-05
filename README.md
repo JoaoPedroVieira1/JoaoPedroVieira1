@@ -2,6 +2,7 @@
   
  - 🤖 Na faculdade, aprendo algoritmos e programação por meio da linguagem C++ 
  - 🤓 Estudando JavaScript/HTML/CSS
+ - 📖 Fiz curso de HTML, CSS e PHP Básico em 2022
 
 <img align="right" src="https://i.picasion.com/pic92/287cafeb7fae899dc74d6b5f56502a5e.gif" width="200" height="200" border="0" alt="https://picasion.com/"/>
 
